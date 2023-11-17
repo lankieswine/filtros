@@ -1,0 +1,23 @@
+ body{
+    background-image: url("http://4.bp.blogspot.com/-wvNXHxFL4ws/VF5N4-F71BI/AAAAAAAABsI/J4H_ud3xa5M/s1600/green-nature-wallpaper-desktop.jpg");
+    background-size: cover;
+ }
+
+h3{
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: aquamarine;
+}
+
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px red;}
+    to{box-shadow: 1px 1px 38px blue;}
+}
